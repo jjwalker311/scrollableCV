@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@import 'styles/colours.scss';
+@import 'styles/me.scss';
+@import 'styles/backgroundElements.scss';
+@import 'styles/animations.scss';
+@import 'styles/sky.scss';
+@import 'styles/scene.scss';
+
+.skrollrFixed{
+  position:fixed;
+  // width:500px;
+  // height:500px;
+}
+.slide1{
+  background:#f1f1f1;
+}
+.slide2{
+  background:#e1e1e1;
+}
+.slide3{
+  background:#262626;
+}

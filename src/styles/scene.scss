@@ -1,0 +1,36 @@
+.ribbonContainer{
+    position: absolute;
+    width: 100vh;
+    height: 75px;
+    text-align: center;
+
+    .ribbonLeft, .ribbonRight{
+        position: relative;
+        width: 55px;
+        height: 75px;
+        margin-right: -1px;
+        display: inline-block;
+    }
+    .ribbonLeft, .ribbonRight, .ribbonText{
+        display: inline-block;
+    }    
+
+    .ribbonText{
+        position: relative;
+        height: 50px;
+        background-color: #ed1c24;
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        top: -42px;
+    }
+}
+
+.welcomeScene{
+    .meImage{
+        width: 123px;
+        height: 191px;
+        background-size: 100%;
+        position: absolute; 
+    }
+}

@@ -1,0 +1,14 @@
+.me {
+    height: 135px;
+    width: 108px;
+    position: fixed;
+    z-index: 10;
+    left : calc(50% - 55px);
+    flex-direction: row;
+
+    &.jump{
+        animation-name: jump;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+    }
+}
